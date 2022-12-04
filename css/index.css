@@ -15,6 +15,7 @@ li {
 .container {
   max-width: 1280px;
   margin: 0 auto;
+  /* border:1px solid black; */
 }
 .grow_section{
   padding-top: 90px;
@@ -879,18 +880,29 @@ margin-left: 0;
 footer{
     flex-wrap: wrap;
 }
-
+.nav_end_ul{
+  display: none;
+}
+.hamburger{
+  margin-right: 40%;
+}
 }
 
 @media only screen and (max-width: 767px) {
   .container {
-    padding-right: 50px;
+    padding-right: 500px;
+  }
+  .hamburger{
+    margin-right: 60%;
   }
   .covid_body {
     background-color: #ede9f2;   
     height: 667px;
     border-radius: 20px;   
  flex-direction: column; 
+}
+header{
+  max-width: 100%;
 }
 footer{
 flex-direction: column;
