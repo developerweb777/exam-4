@@ -1,0 +1,305 @@
+.card {
+  height: 650px;
+  max-width: 1060px;
+  display: flex;
+  padding-left: 60px;
+
+  margin: auto;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+.chap_span {
+  display: flex;
+  margin-bottom: -30px;
+}
+
+.chap_span_text {
+  color: #0a033c;
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 20px;
+
+  text-align: center;
+  margin-left: 6px;
+  color: #0a033c;
+}
+.tee {
+  width: 355px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+.chap_h2 {
+  font-size: 40px;
+  font-family: "roboto";
+}
+
+.card_hr {
+  height: 550px;
+  margin-top: 50px;
+  width: 1px;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 3, 60, 0) 0%,
+    #0a033c 51.56%,
+    rgba(10, 3, 60, 0) 100%
+  );
+  margin-left: 110px;
+}
+.ong {
+  padding-top: 110px;
+  margin-right: 140px;
+  width: 370px;
+  height: 595px;
+  /* margin: auto; */
+}
+.ong_span {
+  padding: 3px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 310px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #dedde4;
+}
+.ong_span_p {
+  color: #5d5a6f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 10px;
+  font-family: "roboto";
+}
+.ong_p {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.label_p {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.form_input {
+  width: 370px;
+  height: 50px;
+  border: 1px solid #dedde4;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 40px;
+}
+.iiii {
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+}
+body {
+  font-family: "roboto";
+}
+.span {
+  position: relative;
+  top: -40px;
+  left: 10px;
+}
+.cekkk {
+  display: flex;
+  margin-left:45px;
+}
+.cekkk_p {
+  margin-left: 5px;
+}
+.cekkk_p1 {
+  margin-left: 20px;
+}
+.chekkk {
+  display: flex;
+  align-items: center;
+}
+.chekkk_p {
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: "roboto";
+}
+.chekkk input {
+  width: 20px;
+  height: 20px;
+}
+.btnn {
+  width: 370px;
+  height: 50px;
+  background: #9c4df4;
+  border-radius: 10px;
+  border: none;
+  font-family: "roboto";
+  color: #ffffff;
+  font-size: 16px;
+}
+.btn_pppp {
+  font-weight: 500;
+  font-size: 19px;
+  font-family: "roboto";
+  text-align: center;
+  color: #5d5a6f;
+}
+
+@media only screen and (max-width: 992px) {
+  .card {
+    width: 720px;
+  }
+  .chap {
+    width: 300px;
+  }
+  .card_hr {
+    margin-left: 0px;
+  }
+  .btnn {
+    width: 311px;
+    height: 50px;
+  }
+  .cap_img {
+    margin-top: 30px;
+    margin-left: -15px;
+    width: 280px;
+  }
+
+  .tee {
+    width: 266px;
+    margin-left: -10px;
+    height: 105px;
+  }
+
+  .chap_h2 {
+    font-size: 30px;
+  }
+  .form_input {
+    width: 290px;
+    height: 50px;
+  }
+  .span {
+    position: relative;
+    top: 15px;
+    left: -322px;
+  }
+  .ong {
+    margin: auto;
+  }
+  .chekkk {
+    margin-left: 35px;
+  }
+
+  .btnn {
+    margin-left: 23px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 630px;
+  }
+  .form_input {
+    width: 250px;
+    height: 48px;
+  }
+  .chap_h2 {
+    font-size: 28px;
+  }
+  .span {
+    position: relative;
+    top: 15px;
+    left: -285px;
+  }
+  form {
+    margin-left: 30px;
+  }
+  .btnn {
+    width: 260px;
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .card {
+    flex-direction: column;
+    width: fit-content;
+    padding: 0;
+    height: 530px;
+  }
+
+  .chap {
+    display: none;
+  }
+  .ong {
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+  hr {
+    display: none;
+  }
+  .form_input {
+    width: 295px;
+    height: 50px;
+  }
+  form {
+    margin-left: 20px;
+  }
+
+  .span {
+    position: relative;
+    top: 15px;
+    left: -327px;
+  }
+  .btnn {
+    margin-left: 55px;
+    width: 255px;
+    height: 50px;
+  }
+
+  .chekkk {
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .card {
+    width: 320px;
+    margin-left: auto;
+  }
+  .ong {
+    margin: 0 auto;
+  }
+  .ong_p {
+    margin-left: -40px;
+  }
+  .ong_span {
+    margin-left: 30px;
+    width: 200px;
+  }
+  .form_input {
+    width: 250px;
+    height: 50px;
+  }
+  .span {
+    position: relative;
+    top: 15px;
+    left: -285px;
+  }
+  .btnn {
+    margin-left: 40px;
+    width: 245px;
+    height: 50px;
+  }
+  .chekkk {
+    margin-left: 20px;
+  }
+  .btn_pppp {
+    margin-left: -30px;
+  }
+}
